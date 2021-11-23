@@ -63,8 +63,9 @@ nav{
 }
 .main_two{
 	width: 100%;
-	height: 100%;
-	background: url(../img/fotka.png) no-repeat 50% 225px/auto 20% , url(../img/cherta.png) no-repeat 50% 160px/auto 0.5% , url(../img/fonoviy.png) no-repeat center/cover;
+	height: auto;
+	float: left;
+	background: url(../img/cherta.png) no-repeat 50% 160px/auto 0.5% , url(../img/fotka.png) no-repeat center 225px ,url(../img/fonoviy.png) no-repeat center/cover;
 }
 .about_me{
 	float: left;
@@ -80,7 +81,7 @@ nav{
 .about_me h4{
 	float: left;
 	font-size: 20px; 
-	margin: 448px 595px 0px 595px;
+	margin: 348px 595px 0px 595px;
 }
 .about_me h5{
 	float: left;
@@ -96,14 +97,13 @@ height: 40px;
 	color: #6d7682;
 	font-size: 13px;
 	padding: 0px 16px;
-	margin: 37px 595px 0px 595px;
+	margin: 37px 595px 97px 595px;
 	background: url(../img/iconca.png) no-repeat 12px 10px/auto auto ;	
 }
 .main_3{
 	width: 100%;
 	float: left;
-	height: 70%;
-	background:  url(../img/grammofon.png) no-repeat 1375px 275px , url(../img/raketa.png) no-repeat 1085px 275px , url(../img/znak.png) no-repeat 788px 275px , url(../img/nout.png) no-repeat 495px 275px , url(../img/cherta.png) no-repeat 50% 160px/auto 0.5% , url(../img/fon2.png) no-repeat center/cover;
+	background: url(../img/cherta.png) no-repeat 50% 160px/auto 0.5% , url(../img/fon2.png) no-repeat center/cover;
 }
 .title{
 	float: left;
@@ -113,14 +113,64 @@ height: 40px;
 	float: left;
 	font-size: 30px;
 	font-weight: bold;
-	margin: 107px 0px 0px 840px;
+	margin: 108px 0px 0px 840px;
 	color: #263244;
-}
-.title b{
-	float: left;
-	color: #cf7600;
-	font-size: 16px;
-	text-transform: uppercase;
-	margin: 0px 0px 0px 0px;
 
 }
+.webdisign{
+	float: left;
+	width: auto;
+	font-size: 15px;
+	margin-right: 1350px;
+	margin-top: 275px;
+}
+.webdisign h4{
+	font-size: 18px;
+	color: #cf7600;
+	font-weight: bold;
+	margin-top: 37px;
+}
+.webdisign p{
+	font-size: 13px;
+	color: #3f495a;
+	margin: 20px 150px 100px 150px;
+	text-align: center;
+
+}
+.razrabotka img{
+	margin: 20px;
+
+}
+.main4{
+	width: 100%;
+    height: 100%;
+	float: left;
+	background: url(../img/case.png) no-repeat 0px 257px , url(../img/cherta.png) no-repeat 50% 160px/auto 0.5%;
+}
+.case h2{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 110px 0px 0px 875px;
+	color: #263244;
+}
+.case h6{
+	font-size: 15px;
+	padding-top: 200px;
+	margin-left: 677px;
+}
+.client h4{
+float: left;
+font-size: 25px;
+margin-top: 670px;
+margin-left: 387px;
+color: #384354;
+}
+.client h6{
+	float:left;
+	font-size: 15px;
+	margin-top: 695px;
+	padding-right: 500px
+
+}
+
