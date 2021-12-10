@@ -5,6 +5,7 @@ nav{
 	width: 100%;
 	height: 60px;
 	background: #344051;
+	position: fixed;
 }
 .logo{
 	color: #fff;
@@ -12,7 +13,12 @@ nav{
 	line-height: 60px;
 	padding-left: 388px;
 	float: left;
+	animation: comming 2s ease;
 
+}
+main{
+	width: 100%;
+	height: 100%;
 }
 .menu{
 	float: left;
@@ -26,11 +32,68 @@ nav{
 	margin-right: 40px;
 	font-size: 16px;
 	text-transform: uppercase;
+	animation: topshift 1s ease forwards;
+	opacity: 0;
 
+
+}
+.title__container input{
+	transition: all 0.2s;
+	transform: scale(1.0);
+}
+.title__container input:hover{
+	background: #344051;
+	color: white;
+}
+.title__container input:active{
+	transform: scale(1.1);
+}
+@keyframes comming{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+@keyframes topshift{
+	from{
+         opacity: 0;
+         margin-top: -80px;
+	}
+	to{
+         opacity: 1;
+         margin-top: 0px;
+	}
+}
+.menu li:nth-child(2){
+animation-delay: 0.4s;
+}
+.menu li:nth-child(3){
+animation-delay: 0.8s;
+}
+.menu li:nth-child(4){
+animation-delay: 1.2s;
+}
+.menu li:nth-child(5){
+animation-delay: 1.6s;
+}
+.menu li:nth-child(6){
+animation-delay: 2.0s;
+}
+@keyframes titlemove{
+	from{
+         opacity: 0;
+         margin-left: -500px;
+	}
+	to{
+         opacity: 1;
+         margin-left: 404px;
+	}
 }
 .main{
 	width: 100%;
-	height: calc(100% - 60px);
+	height: 100%;
 	background: url(../img/paren2.png) no-repeat 90% 100%/auto 85% , url(../img/fon.jpg) no-repeat center/cover;
 }
 .title__container{
@@ -38,6 +101,9 @@ nav{
 	margin: 432px 0px 0px 404px;
 	color: #2c384a;
 	text-align: center;
+	opacity: 0;
+	animation: titlemove 1s ease forwards;
+	animation-delay: 2.4s;
 }
 .title__container h1{
 	font-size: 60px;
@@ -56,11 +122,27 @@ nav{
 	background: none;
 	border-radius: 5px;
 	color: #6d7682;
-	font-size: 13px;
 	padding: 0px 16px;
 	margin: 58px 14px 0px 14px;
 
 }
+.menu li a{
+	transition: all 0.1s;
+	color: white;
+	transform: scale(1);
+	display: inline-block;
+}
+.menu li a:visited{
+	color: white;
+}
+.menu li a:hover{
+	color: #d17700;
+	
+}
+.menu li a:active{
+transform: scale(1.1);
+}
+
 .main_two{
 	width: 100%;
 	height: auto;
@@ -98,7 +180,14 @@ height: 40px;
 	font-size: 13px;
 	padding: 0px 16px;
 	margin: 37px 595px 97px 595px;
-	background: url(../img/iconca.png) no-repeat 12px 10px/auto auto ;	
+	background: url(../img/iconca.png) no-repeat 10px 10px ;	
+}
+.main_two input:hover{
+	background: #344051;
+	color: white;
+}
+.main_two input:active{
+	transform: scale(1.1);
 }
 .main_3{
 	width: 100%;
@@ -123,6 +212,9 @@ height: 40px;
 	width: 300px;
 	text-align: center;
 	margin: 276px 0px 0px 218px;
+	opacity: 0;
+	animation: webdisign 2s ease forwards;
+	animation-delay: 2.4s;
 }
 .webdisign h4{
 	font-size: 20px;
@@ -135,11 +227,24 @@ height: 40px;
 	color: #3f495a;
 	font-size: 15px;
 }
+@keyframes webdisign{
+	from{
+         opacity: 0;
+         margin-left: -500px;
+	}
+	to{
+         opacity: 1;
+         margin-left: 218px;
+	}
+}
 .razrabotka{
 	float: left;
 	width: 300px;
 	text-align: center;
 	margin: 276px 0px 0px 82px;
+	opacity: 0;
+	animation: razrabotka 2s ease forwards;
+	animation-delay: 2.4s;
 }
 .razrabotka h4{
 	font-size: 20px;
@@ -152,11 +257,24 @@ height: 40px;
 	color: #3f495a;
 	font-size: 15px;
 }
+@keyframes razrabotka{
+	from{
+         opacity: 0;
+         margin-left: -500px;
+	}
+	to{
+         opacity: 1;
+         margin-left: 82px;
+	}
+}
 .ceo{
 	float: left;
 	width: 300px;
 	text-align: center;
 	margin: 276px 0px 0px 82px;
+	opacity: 0;
+	animation: ceo 2s ease forwards;
+	animation-delay: 2.4s;
 }
 .ceo h4{
 	font-size: 20px;
@@ -169,11 +287,24 @@ height: 40px;
 	color: #3f495a;
 	font-size: 15px;
 }
+@keyframes ceo{
+	from{
+         opacity: 0;
+         margin-left: -500px;
+	}
+	to{
+         opacity: 1;
+         margin-left: 82px;
+	}
+}
 .marketing{
 	float: left;
     width: 300px;
 	text-align: center;
 	margin: 276px 0px 0px 82px;
+	opacity: 0;
+	animation: marketing 2s ease forwards;
+	animation-delay: 2.4s;
 }
 .marketing h4{
 	font-size: 20px;
@@ -185,6 +316,16 @@ height: 40px;
 	margin-top: 20px;
 	color: #3f495a;
 	font-size: 15px;
+}
+@keyframes marketing{
+	from{
+         opacity: 0;
+         margin-left: -500px;
+	}
+	to{
+         opacity: 1;
+         margin-left: 82px;
+	}
 }
 .main4{
 	width: 100%;
@@ -364,7 +505,9 @@ height: 40px;
 	width: 100%;
 	height: 500px;
 	float: left;
-	background: url(../img/fon3.png) no-repeat center/cover;
+	background: url(../img/fon3.png) no-repeat;
+	background-attachment: fixed;
+	position: relative;
 }
 .title2{
 	color: #263244;

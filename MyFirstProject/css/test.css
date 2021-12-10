@@ -1,0 +1,45 @@
+.loader{
+	width: 100%;
+	height: 100%;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.loading{
+	float: left;
+	width: 100px;
+	height: 100px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efc5ca+0,ba2737+63,f18e99+100 */
+background: rgb(239,197,202); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(239,197,202,1) 0%, rgba(186,39,55,1) 63%, rgba(241,142,153,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(239,197,202,1) 0%,rgba(186,39,55,1) 63%,rgba(241,142,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(239,197,202,1) 0%,rgba(186,39,55,1) 63%,rgba(241,142,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	margin-left: 250px;
+	margin-top: 100px;
+}
+.loading h4{
+	float: left;
+	color: #119e8e;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: Arial, verdana, trebuchet, sans-serif;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+	
+}
+.loading img{
+	width: 80px;
+	height: 50px;
+	margin-left:10px;
+	margin-top: 20px;
+}
+.gif{
+	width: 30px;
+	height: 30px;
+}
